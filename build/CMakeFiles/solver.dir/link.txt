@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\solver.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\solver.dir/objects.a @CMakeFiles\solver.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe  -mbmi2 -mbmi -mabm -std=c++23 -O3 -g -Wl,--whole-archive CMakeFiles\solver.dir/objects.a -Wl,--no-whole-archive -o solver.exe -Wl,--out-implib,libsolver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\solver.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\solver_faster.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\solver_faster.dir/objects.a @CMakeFiles\solver_faster.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe  -mbmi2 -mbmi -mabm -std=c++23 -O3 -g -Wl,--whole-archive CMakeFiles\solver_faster.dir/objects.a -Wl,--no-whole-archive -o solver_faster.exe -Wl,--out-implib,libsolver_faster.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\solver_faster.dir\linkLibs.rsp
